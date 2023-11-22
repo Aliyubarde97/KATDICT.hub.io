@@ -21,10 +21,10 @@ const Home = () => {
           </div>
         </div>
         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
-          <img src={oo1} alt="" className='object-fill:contain w-[400px] h-[250px]'/>
+          <img src={oo1} alt="" className='object-fill:contain w-[400px]'/>
           {/* hero text */}
           <div className='md:w-1/2 mb-20'>
-              <h1 className='capitalize text-2xl text-neutralSilver mb-5'>Sector by Sector Digitization</h1>
+              <h1 className='capitalize text-2xl text-neutralSilver mb-5'>Sector by Sector Digitization </h1>
         <h1 className='capitalize text-lg text-[100%] '>Our journey begins with meticulous plans for planning and budgeting, paving the way for a digital transformation wave across education and health. KATDICT is on a mission, turning dreams into a tangible, tech-driven reality!</h1>
               
           </div>
