@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'flowbite-react'
-import oo1 from '../assets/img/KatsinaDGB.jpeg'
+import oo9 from '../assets/img/KatsinaDG.jpeg'
 import oo2 from '../assets/img/pic-removebg-preview.png'
 import oo3 from '../assets/img/ICTLOGO.png'
 
@@ -21,7 +21,7 @@ const Home = () => {
           </div>
         </div>
         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
-          <img src={oo1} alt="" className='object-fill:contain w-[400px]'/>
+          <img src={oo9} alt="" className='object-fill:contain w-[400px]'/>
           {/* hero text */}
           <div className='md:w-1/2 mb-20'>
               <h1 className='capitalize text-2xl text-neutralSilver mb-5'>Sector by Sector Digitization </h1>
