@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'flowbite-react'
-import oo9 from '../assets/img/KatsinaDG.jpeg'
+import oo9 from './../../src/assets/img/katsinaDG.jpeg'
 import oo2 from '../assets/img/pic-removebg-preview.png'
 import oo3 from '../assets/img/ICTLOGO.png'
 
