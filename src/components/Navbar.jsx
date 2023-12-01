@@ -24,6 +24,7 @@ const Navbar = () => {
       }
     };
     window.addEventListener('scroll', handleScroll);
+  
 
     return () => {
       window.addEventListener('scroll', handleScroll);
@@ -39,6 +40,15 @@ const Navbar = () => {
       {link: "About", path: "About"},
     ];
     console.log(NavItems)
+     
+    function Header() {
+
+      const handleScroll = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      };
  
   return (
     <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
@@ -80,8 +90,8 @@ const Navbar = () => {
   )
  
  
-}
-
+            }
+          }
  
 
 export default Navbar
